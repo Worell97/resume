@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
+    color: var(--white);
+  }
+  
+  :root {
+    --primary: #0d1117;
+    --black: #000000;
+    --blackLighter: #9E9E9E;
+    --grayLight: #F5F5F5;
+    --grayMedium: #e5e5e5; 
+    --grayHigh: #30363d;
+    --white: #c9d1d9;
+    --frontEnd: #6BD1FF;
+    --backEnd: #00C86F;
+    --DefaultSectionHeigth: 90;
+  } 
+  
+  html,
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: inherit;
+  } 
+  
+  #root{
+    scroll-behavior: smooth;
+  }
+
+  .certifications{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
