@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4d158a94.chunk.css",
+    "main.js": "/static/js/main.62ae0a70.chunk.js",
+    "main.js.map": "/static/js/main.62ae0a70.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.777e6c72.js",
+    "runtime-main.js.map": "/static/js/runtime-main.777e6c72.js.map",
+    "static/js/2.28c85a67.chunk.js": "/static/js/2.28c85a67.chunk.js",
+    "static/js/2.28c85a67.chunk.js.map": "/static/js/2.28c85a67.chunk.js.map",
+    "static/js/3.728fca0c.chunk.js": "/static/js/3.728fca0c.chunk.js",
+    "static/js/3.728fca0c.chunk.js.map": "/static/js/3.728fca0c.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.4d158a94.chunk.css.map": "/static/css/main.4d158a94.chunk.css.map",
+    "static/js/2.28c85a67.chunk.js.LICENSE.txt": "/static/js/2.28c85a67.chunk.js.LICENSE.txt",
+    "static/media/Perfil.c04b5ac1.jpg": "/static/media/Perfil.c04b5ac1.jpg",
+    "static/media/facebook-ico.de3598db.png": "/static/media/facebook-ico.de3598db.png",
+    "static/media/icons8-react-50.74429315.png": "/static/media/icons8-react-50.74429315.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.777e6c72.js",
+    "static/js/2.28c85a67.chunk.js",
+    "static/css/main.4d158a94.chunk.css",
+    "static/js/main.62ae0a70.chunk.js"
+  ]
+}
