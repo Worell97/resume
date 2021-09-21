@@ -1,5 +1,9 @@
 import * as express from 'express';
 import { Request, Response } from "express";
+const morgan = require("morgan");
+const mongoose = require("mongoose");
+const path = require("path");
+const cors = require("cors");
 const fs = require("fs");
 
 
@@ -37,7 +41,22 @@ const port = process.env.PORT || 5000;
 
 const app = express();
 
+mongoose.connect(
+    process.env.MONGO_URL,
+    {
+      useNewUrlParser: true
+    }
+);
+
 app.use(express.json());
+app.use(cors());
+app.use(express.urlencoded({extended: true}));
+app.use(morgan("dev"));
+app.use(
+    "/files",
+    express.static(path.resolve(__dirname, "..", "tmp", "uploads"))
+);
+app.use(require("./routes"));
 
 app.get('/api/certifications', async  (req: Request, res: Response) => {
     await ReadFiles('./server/data/certificados/', AddFile, HandleErr);

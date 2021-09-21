@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import { StyledContainer } from './styles';
 import {
     Events,
-    animateScroll as scroll,
     scrollSpy
   } from "react-scroll";
 import ScrollSnap from 'scroll-snap';
